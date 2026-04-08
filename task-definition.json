@@ -6,10 +6,10 @@
     "containerDefinitions": [
         {
             "name": "react-ec2-container",
-            "image": "450730497128.dkr.ecr.us-east-2.amazonaws.com/ec2_image:latest",
+             "image": "450730497128.dkr.ecr.us-east-2.amazonaws.com/react-ec2:latest",
             "portMappings": [
                 {
-                    "name": "ngnix-80-tcp",
+                    "name": "nginx-80-tcp",
                     "containerPort": 80,
                     "hostPort": 80,
                     "protocol": "tcp",
